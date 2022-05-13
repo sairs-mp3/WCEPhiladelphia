@@ -1,0 +1,75 @@
+/* Common Styles (Header, Footer, etc.) */
+/* temp down (this is messing up contact) */
+html{
+    position: relative;
+    min-height: 100%;
+}
+/* Removes margin on header */
+body{
+    margin: 0;
+    /* temp down */
+    margin-bottom: 107px;    
+}
+/* Header color, height */
+header{
+    background-color: white;
+    height: 188px;
+}
+/* Header Image positioning */
+header img{
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+/* Footer color, positioning */
+footer{
+     position:absolute;
+     bottom:0;
+     width:100%;
+     height:107px; 
+}
+/* Footer text style, positioning */
+footer div{
+     font-family: inter;
+     font-weight: bold;
+     text-align: center;
+     margin-top: 45px;
+}
+/* Navbar items style, positioning */
+.nav{
+     text-decoration: none;
+     color: #db3b0f;
+     font-family: inter;
+     font-weight: bold;
+     float: right;
+     margin-right: 80px;
+     margin-top: 75px;
+}
+/* Navbar items on hover */
+.nav:hover{
+    text-decoration: underline;
+}
+/* Header donate button style, positioning */
+header button{
+    float: right;
+    margin-top: 68px;
+    margin-right: 80px;
+    color: white;
+    background-color: #db3b0f;
+    border: none;
+    font-family: inter;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+/* Header donate button on hover */
+header button:hover{
+    text-decoration: underline;
+}
+#TBA{
+    font-size: 60px;
+    font-family: inter;
+    text-align: center;
+    padding-top: 75px;
+}

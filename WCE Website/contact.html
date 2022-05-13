@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title>WCE Philadelphia</title>
+
+        <!-- External Styles -->
+        <link rel='stylesheet' type='text/css' href='css/styles.css' />
+
+        <!-- Google Font Inter -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+        <!-- Link for Social Media -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        
+        
+        <style>
+            main img{
+                width: 1903px;
+                height: 525px;
+                object-fit: cover;
+            }
+            .container{
+                position: relative;
+                text-align: center;
+                color: white;
+            }
+            .centered{
+                position: absolute;
+                top: 30%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: white;
+                font-family: inter;
+                font-size:  60px;
+                font-weight: bold;
+            }
+            iframe{
+                margin-right: 330px;
+                margin-top: 100px;
+            }
+            #maps{
+                margin-bottom: 200px;
+                float: right;
+                
+            }
+            #address{
+                font-family: inter;
+                font-size: 18px;
+                margin-left: 100px;
+            }
+            #address2{
+                margin-top: 5px;
+                margin-left: 16px;
+            }
+            #container2{
+                display: inline-block;
+            }
+            #write{
+                font-family: inter;
+                font-weight: bold;
+                margin-top: 180px;
+                margin-left: 360px;
+                font-size: 45px;
+            }
+            #emailid{
+                font-size: 20px;
+                margin-top: 20px;
+                margin-left: 319px;
+            }
+            #emailid a{
+                color: #db3b0f;
+                font-weight: normal;
+                font-family: inter;
+            }
+            #connect{
+                margin-left: 305px;
+                margin-top: 30px;
+                font-size: 45px;
+                font-family: inter;
+                font-weight: bold;
+            }
+            #social{
+                margin-left: 395px;
+                margin-top: 20px;
+            }
+            .fa {
+                padding: 10px;
+                font-size: 20px;
+                width: 22px;    
+                text-align: center;
+                text-decoration: none;
+                border-radius: 50%;
+            }
+            .fa-facebook {
+                background: #3B5998;
+                color: white;
+            }
+
+            .fa-twitter {
+                background: #55ACEE;
+                color: white;
+            }
+            .fa-linkedin {
+                background: #007bb5;
+                color: white;
+            }
+            .fa-instagram {
+                background: #e40f79;
+                color: white;
+            }
+            .fa:hover {
+                opacity: 0.7;
+            }
+            /* temporary */
+            footer{
+                background-color: rgb(238, 238, 238);
+            }
+            
+        </style>
+
+    </head>
+
+    <body>
+        
+        <header>
+            
+            <!-- Clickable Header Image -->
+            <a href='index.html'><img src='images/wcelogo.png' alt='wce' /></a>
+
+           <!-- Navbar items -->
+            <button onclick="window.location.href='https://donate.givedirect.org/?cid=12465';">DONATE</button>
+            <a class='nav' href='contact.html'>Contact</a>
+            <a class='nav'href='impact.html'>Impact</a>
+            <a class='nav' href='news.html'>News</a>
+            <a class='nav' href='whatwedo.html'>What We Do</a>
+            <a class='nav' href='index.html'>Home</a>
+           
+        </header>
+
+        <main>
+
+            <!-- Image and Text -->
+            <div class='containter'>
+                
+                <img src='images/contactus4.jpg'>
+                <div class='centered'>Contact</div>
+
+            </div>
+
+
+            
+            <div id='container2'>
+                <!-- write to us -->
+                <div  id="write">
+
+                    Write to us!
+
+                </div>
+
+                <br/>
+                <!-- email -->
+                <div id='emailid'>
+
+                    <a href="mailto:info@worldcomputerexchange.org">Info@WorldComputerExchange.org</a>
+                    
+                </div>
+                <!-- connect with us -->
+                <div id='connect'> 
+                    
+                    Connect with us!
+                
+                </div>
+
+                <br/>
+                <!-- social media circles -->
+                <div id='social'>
+
+                    <a href='https://www.instagram.com/wce_org/?hl=en' class="fa fa-instagram"></a>
+                    <a href='https://twitter.com/WCE_org' class="fa fa-twitter"></a>
+                    <a href='https://www.facebook.com/WorldComputerExchange/' class="fa fa-facebook"></a>
+                    <a href='https://www.linkedin.com/company/world-computer-exchange/' class="fa fa-linkedin"></a>
+
+                </div>
+
+            </div>
+            
+            <!-- Div for google maps and address text -->
+            <div id='maps'>
+
+                <!-- Google Maps -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3047.8660717152256!2d-75.49334658423531!3d40.18979387733327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c690650ae15c95%3A0xd42695941636e1fd!2s6%20Brentfort%20Ct%2C%20Collegeville%2C%20PA%2019426!5e0!3m2!1sen!2sus!4v1640981430304!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <br/>
+                <br/>
+                    
+                    <!-- Address line 1 -->
+                    <div id='address'>
+
+                        World Computer Exchange - Philadelphia Chapter
+                        <br/>
+
+                        <!-- Address line 2 -->
+                        <div id='address2'>
+
+                            6 Brentfort Court, Collegeville, PA 19426, USA
+
+                        </div>
+
+                    </div>
+
+            </div> 
+
+        </main>
+
+        <footer>
+
+            <div>
+                
+                <!-- Footer Text -->
+                © 2022 World Computer Exchange
+    
+            </div>
+
+        </footer>
+
+    </body>
+
+</html>
