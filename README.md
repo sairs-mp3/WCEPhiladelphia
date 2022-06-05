@@ -1,2 +1,2 @@
-# WCEPhiladelphia
+# WCE Philadelphia
 
